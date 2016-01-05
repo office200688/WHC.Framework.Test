@@ -1,0 +1,9 @@
+F:\workspace\VS2010\WHC框架及类库测试\WHC框架及类库测试\obj\x86\Debug\WHC框架及类库测试.Properties.Resources.resources
+F:\workspace\VS2010\WHC框架及类库测试\WHC框架及类库测试\obj\x86\Debug\WHC框架及类库测试.NotifyWindow.resources
+F:\workspace\VS2010\WHC框架及类库测试\WHC框架及类库测试\obj\x86\Debug\WHC框架及类库测试.csproj.GenerateResource.Cache
+F:\workspace\VS2010\WHC框架及类库测试\WHC框架及类库测试\bin\Debug\WHC框架及类库测试.exe
+F:\workspace\VS2010\WHC框架及类库测试\WHC框架及类库测试\bin\Debug\WHC框架及类库测试.pdb
+F:\workspace\VS2010\WHC框架及类库测试\WHC框架及类库测试\obj\x86\Debug\WHC框架及类库测试.exe
+F:\workspace\VS2010\WHC框架及类库测试\WHC框架及类库测试\obj\x86\Debug\WHC框架及类库测试.pdb
+F:\workspace\VS2010\WHC框架及类库测试\WHC框架及类库测试\obj\x86\Debug\WHC框架及类库测试.Form1.resources
+F:\workspace\VS2010\WHC框架及类库测试\WHC框架及类库测试\obj\x86\Debug\WHC框架及类库测试.csprojResolveAssemblyReference.cache

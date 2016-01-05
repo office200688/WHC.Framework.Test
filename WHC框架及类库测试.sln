@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WHC框架及类库测试", "WHC框架及类库测试\WHC框架及类库测试.csproj", "{6043C4DA-DDD8-4B53-84A4-8769E0E526C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMIS", "TMIS\TMIS.csproj", "{194353A1-31F7-4444-9579-356EC5147CFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6043C4DA-DDD8-4B53-84A4-8769E0E526C3}.Debug|x86.ActiveCfg = Debug|x86
+		{6043C4DA-DDD8-4B53-84A4-8769E0E526C3}.Debug|x86.Build.0 = Debug|x86
+		{6043C4DA-DDD8-4B53-84A4-8769E0E526C3}.Release|x86.ActiveCfg = Release|x86
+		{6043C4DA-DDD8-4B53-84A4-8769E0E526C3}.Release|x86.Build.0 = Release|x86
+		{194353A1-31F7-4444-9579-356EC5147CFA}.Debug|x86.ActiveCfg = Debug|x86
+		{194353A1-31F7-4444-9579-356EC5147CFA}.Debug|x86.Build.0 = Debug|x86
+		{194353A1-31F7-4444-9579-356EC5147CFA}.Release|x86.ActiveCfg = Release|x86
+		{194353A1-31F7-4444-9579-356EC5147CFA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

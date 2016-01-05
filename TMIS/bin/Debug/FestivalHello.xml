@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="gb2312" ?>   
+<HELLO>   
+   
+  <!-- 公历节日开始 -->   
+  <AD>   
+    <feast day="0101" name="元旦" sayhello="yes">   
+      <hello>新年好！祝您在新的一年里身体健康，事业进步！</hello>   
+      <!-- 从网站根目录算起 -->   
+      <img>./img/theme/0101.gif</img>   
+    </feast>   
+    <feast day="0202" name="世界湿地日" sayhello="no">   
+      <img></img>   
+      <hello></hello>   
+    </feast>   
+    <feast day="0210" name="国际气象节" sayhello="no">   
+      <img></img>   
+      <hello></hello>   
+    </feast>   
+    <feast day="0214" name="情人节" sayhello="yes">   
+      <hello>祝天下有情人终成眷属！</hello>   
+      <img>./img/theme/0214.gif</img>   
+    </feast>   
+    <feast day="0301" name="世界图书日" sayhello="no">   
+      <img></img>   
+      <hello></hello>   
+    </feast>
+    <feast day="1228" name="啪啪日" sayhello="yes">   
+      <img></img>   
+      <hello></hello>   
+    </feast>	
+</HELLO>

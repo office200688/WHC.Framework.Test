@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{194353A1-31F7-4444-9579-356EC5147CFA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TMIS</RootNamespace>
+    <AssemblyName>TMIS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>References\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="ControlLibrary">
+      <HintPath>References\ControlLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Guifreaks.Common">
+      <HintPath>References\Guifreaks.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Guifreaks.NavigationBar">
+      <HintPath>References\Guifreaks.NavigationBar.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>References\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UtilityLibrary">
+      <HintPath>References\UtilityLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>References\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="WHC.Framework.BaseUI">
+      <HintPath>References\WHC.Framework.BaseUI.dll</HintPath>
+    </Reference>
+    <Reference Include="WHC.Framework.Commons">
+      <HintPath>References\WHC.Framework.Commons.dll</HintPath>
+    </Reference>
+    <Reference Include="WHC.Framework.ControlUtil, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\WHC.Framework.ControlUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="WHC.Pager.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="WHC.Pager.WinControl">
+      <HintPath>References\WHC.Pager.WinControl.dll</HintPath>
+    </Reference>
+    <Reference Include="WHC.Security">
+      <HintPath>References\WHC.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="WHC.WareHouseMis">
+      <HintPath>References\WHC.WareHouseMis.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsLive.Writer.Interop.Mshtml">
+      <HintPath>References\WindowsLive.Writer.Interop.Mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="WinHtmlControl">
+      <HintPath>References\WinHtmlControl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\BaseBLL.cs" />
+    <Compile Include="BLL\BLLFactory.cs" />
+    <Compile Include="BLL\Reflect.cs" />
+    <Compile Include="BLL\TB_PurchaseDetail.cs" />
+    <Compile Include="DAL\ArgumentValidation.cs" />
+    <Compile Include="DAL\BaseDAL.cs" />
+    <Compile Include="DAL\PageHelper.cs" />
+    <Compile Include="DAL\SmartDataReader.cs" />
+    <Compile Include="DAL\TB_PurchaseDetail.cs" />
+    <Compile Include="Entity\BaseEntity.cs" />
+    <Compile Include="Entity\CustomerInfo.cs" />
+    <Compile Include="Entity\TB_PurchaseDetailInfo.cs" />
+    <Compile Include="Forms\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTest.Designer.cs">
+      <DependentUpon>FormTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTools.Designer.cs">
+      <DependentUpon>FormTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form各车间报表.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form各车间报表.Designer.cs">
+      <DependentUpon>Form各车间报表.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form备件出库.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form备件出库.Designer.cs">
+      <DependentUpon>Form备件出库.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form备件入库.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form备件入库.Designer.cs">
+      <DependentUpon>Form备件入库.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form业务报表.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form业务报表.Designer.cs">
+      <DependentUpon>Form业务报表.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form备件信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form备件信息.Designer.cs">
+      <DependentUpon>Form备件信息.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form数据字典.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form数据字典.Designer.cs">
+      <DependentUpon>Form数据字典.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Splash\frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Splash\frmSplash.designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Splash\ISplashForm.cs" />
+    <Compile Include="Forms\Splash\Splasher.cs" />
+    <Compile Include="Forms\ToolWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolWindow.Designer.cs">
+      <DependentUpon>ToolWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form库存查询.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form库存查询.Designer.cs">
+      <DependentUpon>Form库存查询.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IDAL\IBaseDAL.cs" />
+    <Compile Include="IDAL\ITB_PurchaseDetail.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTest.resx">
+      <DependentUpon>FormTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTools.resx">
+      <DependentUpon>FormTools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form各车间报表.resx">
+      <DependentUpon>Form各车间报表.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form备件出库.resx">
+      <DependentUpon>Form备件出库.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form备件入库.resx">
+      <DependentUpon>Form备件入库.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form业务报表.resx">
+      <DependentUpon>Form业务报表.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form备件信息.resx">
+      <DependentUpon>Form备件信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form数据字典.resx">
+      <DependentUpon>Form数据字典.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Splash\frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ToolWindow.resx">
+      <DependentUpon>ToolWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form库存查询.resx">
+      <DependentUpon>Form库存查询.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commons\" />
+    <Folder Include="Utils\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abd.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BmpToolWindow.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
